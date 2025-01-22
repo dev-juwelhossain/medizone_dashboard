@@ -27,6 +27,8 @@ data-template="vertical-menu-template-free"
           href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"
         />
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/2ad7533e5f.js" crossorigin="anonymous"></script>
     
         <!-- Icons. Uncomment required icon fonts -->
         <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
@@ -286,11 +288,12 @@ data-template="vertical-menu-template-free"
                     <div class="col-xxl">
                         <div class="card mb-4">
                           <div class="card-header d-flex align-items-center justify-content-between">
-                            <h5 class="mb-0">Basic with Icons</h5>
-                            <small class="text-muted float-end">Merged input group</small>
+                            <h5 class="mb-0">Doctor's Data Input Form</h5>
+                            <small class="text-muted float-end">Medizone</small>
                           </div>
                           <div class="card-body">
                             <form>
+                              <!-- doctor name  -->
                               <div class="row mb-3">
                                 <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Name</label>
                                 <div class="col-sm-10">
@@ -308,6 +311,206 @@ data-template="vertical-menu-template-free"
                                     />
                                   </div>
                                 </div>
+                              </div>
+                              <!-- doctor degree  -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Degree</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-fullname2" class="input-group-text"
+                                      ><i class="bx bx-certification"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="basic-icon-default-fullname"
+                                      placeholder="e.g. MBBS"
+                                      aria-label="e.g. MBBS"
+                                      aria-describedby="basic-icon-default-fullname2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- expert field -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Specialized</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-fullname2" class="input-group-text"
+                                      ><i class="bx bx-medal"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="basic-icon-default-fullname"
+                                      placeholder="e.g. Medicine"
+                                      aria-label="e.g. Medicine"
+                                      aria-describedby="basic-icon-default-fullname2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- experience -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Experience</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-fullname2" class="input-group-text"
+                                      ><i class="bx bx-award"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="basic-icon-default-fullname"
+                                      placeholder="e.g. 10 Years"
+                                      aria-label="e.g. 10 Years"
+                                      aria-describedby="basic-icon-default-fullname2"
+                                    
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- hospital field -->
+
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-company">Hospital</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-company2" class="input-group-text"
+                                      ><i class="bx bx-buildings"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      id="basic-icon-default-company"
+                                      class="form-control"
+                                      placeholder="ACME Inc."
+                                      aria-label="ACME Inc."
+                                      aria-describedby="basic-icon-default-company2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!--  appointment time-->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-company">Appointment Time</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-company2" class="input-group-text"
+                                      ><i class="bx bx-time"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      id="basic-icon-default-company"
+                                      class="form-control"
+                                      placeholder="Sat-Thu"
+                                      aria-label="Sat-Thu"
+                                      aria-describedby="basic-icon-default-company2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- address -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-email">ADDRESS</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span class="input-group-text"><i class="bx bx-pin"></i></span>
+                                    <input
+                                      type="text"
+                                      id="basic-icon-default-email"
+                                      class="form-control"
+                                      placeholder="Rangpur Sadar"
+                                      aria-label="Rangpur Sadar"
+                                      aria-describedby="basic-icon-default-email2"
+                                    />                                  
+                                </div>
+                                  
+                                </div>
+                              </div>
+                              <!-- consultation fee -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 mt-2 form-label" for="basic-icon-default-phone">Consultation Fee</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-phone2" class="input-group-text"
+                                      ><i class='bx bx-dollar'></i></span>
+                                    <input
+                                      type="text"
+                                      id="basic-icon-default-phone"
+                                      class="form-control phone-mask"
+                                      placeholder="৳৫০০"
+                                      aria-label="৳৫০০"
+                                      aria-describedby="basic-icon-default-phone2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- contact number -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 mt-2 form-label" for="basic-icon-default-phone">Contact No</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-phone2" class="input-group-text"
+                                      ><i class="bx bx-phone"></i
+                                    ></span>
+                                    <input
+                                      type="text"
+                                      id="basic-icon-default-phone"
+                                      class="form-control phone-mask"
+                                      placeholder="+880 1799 8941"
+                                      aria-label="+880 1799 8941"
+                                      aria-describedby="basic-icon-default-phone2"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- about doctor -->
+                              <div class="row mb-3">
+                                <label class="col-sm-2 form-label" for="basic-icon-default-message">About Doctor</label>
+                                <div class="col-sm-10">
+                                  <div class="input-group input-group-merge">
+                                    <span id="basic-icon-default-message2" class="input-group-text"
+                                      ><i class="bx bx-message-dots"></i
+                                    ></span>
+                                    <textarea
+                                      id="basic-icon-default-message"
+                                      class="form-control"
+                                      placeholder="Write About Doctor"
+                                      aria-label=""
+                                      aria-describedby="basic-icon-default-message2"
+                                    ></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- catagory dropdown -->
+                               <div class="row justify-content-end mb-2 mt-2">
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Doctor Catagory</label>
+                                <div class="dropdown col-sm-10">
+                                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Category
+                                  </a>
+                                
+                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Medicine</a></li>
+                                    <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                                    <li><a class="dropdown-item" href="#">Neurologist</a></li>
+                                    <li><a class="dropdown-item" href="#">Obstetrics and gynaecology</a></li>
+                                    <li><a class="dropdown-item" href="#">Dermatologist</a></li>
+                                    <li><a class="dropdown-item" href="#">Oncologist</a></li>
+                                    <li><a class="dropdown-item" href="#">Psychiatrist</a></li>
+                                    <li><a class="dropdown-item" href="#">Gastroenterologist</a></li>
+                                    <li><a class="dropdown-item" href="#">Pediatricians</a></li>
+                                    <li><a class="dropdown-item" href="#">Dentist</a></li>
+                                    <li><a class="dropdown-item" href="#">Surgeon</a></li>
+                                    
+                                  </ul>
+                                </div>
+                               </div>
+                              
+                              <!-- experiences -->
+                               <div class="row mt-5">
+                                <h4>Experiences</h4>
                               </div>
                               <div class="row mb-3">
                                 <label class="col-sm-2 col-form-label" for="basic-icon-default-company">Hospital</label>
@@ -328,80 +531,50 @@ data-template="vertical-menu-template-free"
                                 </div>
                               </div>
                               <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="basic-icon-default-email">ADDRESS</label>
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Degree</label>
                                 <div class="col-sm-10">
                                   <div class="input-group input-group-merge">
-                                    <span class="input-group-text"><i class="bx bx-pin"></i></span>
-                                    <input
-                                      type="text"
-                                      id="basic-icon-default-email"
-                                      class="form-control"
-                                      placeholder="Rangpur Sadar"
-                                      aria-label="Rangpur Sadar"
-                                      aria-describedby="basic-icon-default-email2"
-                                    />                                  
-                                </div>
-                                  <div class="form-text">You can use letters, numbers & periods</div>
-                                </div>
-                              </div>
-                              <div class="row mb-3">
-                                <label class="col-sm-2 form-label" for="basic-icon-default-phone">Phone No</label>
-                                <div class="col-sm-10">
-                                  <div class="input-group input-group-merge">
-                                    <span id="basic-icon-default-phone2" class="input-group-text"
-                                      ><i class="bx bx-phone"></i
+                                    <span id="basic-icon-default-fullname2" class="input-group-text"
+                                      ><i class="bx bx-certification"></i
                                     ></span>
                                     <input
                                       type="text"
-                                      id="basic-icon-default-phone"
-                                      class="form-control phone-mask"
-                                      placeholder="+880 1799 8941"
-                                      aria-label="+880 1799 8941"
-                                      aria-describedby="basic-icon-default-phone2"
+                                      class="form-control"
+                                      id="basic-icon-default-fullname"
+                                      placeholder="e.g. MBBS"
+                                      aria-label="e.g. MBBS"
+                                      aria-describedby="basic-icon-default-fullname2"
                                     />
                                   </div>
                                 </div>
                               </div>
                               <div class="row mb-3">
-                                <label class="col-sm-2 form-label" for="basic-icon-default-phone">Phone No</label>
+                                <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Experience</label>
                                 <div class="col-sm-10">
                                   <div class="input-group input-group-merge">
-                                    <span id="basic-icon-default-phone2" class="input-group-text"
-                                      ><i class="bx bx-phone"></i
+                                    <span id="basic-icon-default-fullname2" class="input-group-text"
+                                      ><i class="bx bx-award"></i
                                     ></span>
                                     <input
                                       type="text"
-                                      id="basic-icon-default-phone"
-                                      class="form-control phone-mask"
-                                      placeholder="+880 1799 8941"
-                                      aria-label="+880 1799 8941"
-                                      aria-describedby="basic-icon-default-phone2"
+                                      class="form-control"
+                                      id="basic-icon-default-fullname"
+                                      placeholder="e.g. 10 Years"
+                                      aria-label="e.g. 10 Years"
+                                      aria-describedby="basic-icon-default-fullname2"
+                                    
                                     />
                                   </div>
                                 </div>
                               </div>
-                              <div class="row mb-3">
-                                <label class="col-sm-2 form-label" for="basic-icon-default-message">Message</label>
-                                <div class="col-sm-10">
-                                  <div class="input-group input-group-merge">
-                                    <span id="basic-icon-default-message2" class="input-group-text"
-                                      ><i class="bx bx-comment"></i
-                                    ></span>
-                                    <textarea
-                                      id="basic-icon-default-message"
-                                      class="form-control"
-                                      placeholder="Hi, Do you have a moment to talk Joe?"
-                                      aria-label="Hi, Do you have a moment to talk Joe?"
-                                      aria-describedby="basic-icon-default-message2"
-                                    ></textarea>
-                                  </div>
-                                </div>
-                              </div>
+                              
+                              <!-- button -->
                               <div class="row justify-content-end">
                                 <div class="col-sm-10">
-                                  <button type="submit" class="btn btn-primary">Send</button>
+                                  <button type="submit" class="btn btn-primary">Update</button>
                                 </div>
                               </div>
+                             
                             </form>
                           </div>
                         </div>
@@ -418,7 +591,7 @@ data-template="vertical-menu-template-free"
                     <script>
                       document.write(new Date().getFullYear());
                     </script>
-                    , made with  by
+                    , made  by
                     <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Inspired Digital</a>
                   </div>
                   <div>
